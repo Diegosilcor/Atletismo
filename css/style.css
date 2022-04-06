@@ -1,0 +1,1132 @@
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 70, 5%;
+}
+
+/*BODY*/
+/*VISTA DESKTOP*/
+@media only screen and (max-width: 1440px) {
+  body {
+    height: 100px;
+    font-size: 20px;
+    margin: 0px;
+    font-family: "Open Sans", sans-serif;
+    font-family: "PT Sans", sans-serif;
+    font-family: "Smooch Sans", sans-serif;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-image: linear-gradient(
+        0deg,
+        rgba(10, 10, 10, 0.5),
+        rgba(14, 13, 10, 0.5)
+      ),
+      url("../images/trail.webp");
+    background-attachment: fixed;
+  }
+}
+
+/**/
+
+/*BODY*/
+/*VISTA TABLET*/
+@media only screen and (min-width: 768) and (max-width: 1023px) {
+  body {
+    height: 70px;
+    font-size: 1.3em;
+    margin: 0px;
+    font-family: "Open Sans", sans-serif;
+    font-family: "PT Sans", sans-serif;
+    font-family: "Smooch Sans", sans-serif;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-image: linear-gradient(
+        0deg,
+        rgba(10, 10, 10, 0.5),
+        rgba(14, 13, 10, 0.5)
+      ),
+      url("../images/trail.webp");
+    background-attachment: fixed;
+  }
+}
+
+/**/
+/*BODY*/
+/*VISTA MOBILE*/
+@media only screen and (max-width: 767px) {
+  body {
+    height: 50px;
+    font-size: 0.7em;
+    margin: 0px;
+    font-family: "Open Sans", sans-serif;
+    font-family: "PT Sans", sans-serif;
+    font-family: "Smooch Sans", sans-serif;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-image: linear-gradient(
+        0deg,
+        rgba(10, 10, 10, 0.5),
+        rgba(14, 13, 10, 0.5)
+      ),
+      url("../images/trail.webp");
+    background-attachment: fixed;
+  }
+}
+
+/*H1, H2, H3, H4*/
+
+h1 {
+  color: rgb(235, 232, 232);
+  text-align: justify;
+  font-size: 1.5em;
+}
+
+h2 {
+  color: rgb(245, 245, 245);
+  font-size: 1.5em;
+}
+
+h3 {
+  color: rgb(248, 248, 248);
+  font-size: 1.5em;
+}
+
+h4 {
+  color: rgb(255, 255, 255);
+  font-size: 1.5em;
+}
+
+/*BUTTON*/
+
+button {
+  font-size: 1.25em;
+  font-weight: bold;
+  padding: 10px 30px;
+  border-radius: 5px;
+  border: 2px solid rgba(6, 8, 163, 0.3);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  color: rgb(239, 239, 243);
+  background-color: rgb(29, 28, 28);
+}
+
+button:hover {
+  background-color: rgb(210, 208, 211);
+}
+
+/*NUESTROS SERVICIOS*/
+/*VISTA DESKTOP*/
+@media only screen and (max-width: 1440px) {
+  #nuestros-entrenamientos .container {
+    text-align: center;
+    padding: 100px 12px;
+  }
+  #nuestros-servicios {
+    background-color: transparent;
+    text-align: center;
+    display: inline;
+    width: 90%;
+    max-width: 1200px;
+    justify-content: center;
+    padding: 50px;
+  }
+
+  #nuestros-servicios .container {
+    padding: 100px 12px;
+  }
+
+  #nuestros-servicios h2 {
+    margin-top: 0;
+    font-size: 3.2em;
+  }
+
+  #nuestros-servicios p {
+    display: none;
+  }
+
+  #nuestros-servicios .carta {
+    background-position: center center;
+    background-size: cover;
+    padding: 40px 20px;
+    margin: 40px;
+    border-radius: 20px;
+  }
+}
+
+/**/
+
+/*NUESTROS SERVICIOS*/
+/*VISTA TABLET*/
+@media only screen and (min-width: 768) and (max-width: 1023px) {
+  #nuestros-entrenamientos .container {
+    text-align: center;
+    padding: 60px 7px;
+  }
+
+  #nuestros-servicios {
+    background-color: transparent;
+    text-align: center;
+    display: inline;
+    width: 50%;
+    max-width: 500px;
+    justify-content: center;
+    padding: 30px;
+  }
+
+  #nuestros-servicios .container {
+    padding: 60px 7px;
+  }
+
+  #nuestros-servicios h2 {
+    margin-top: 0;
+    font-size: 0.8em;
+  }
+
+  #nuestros-servicios p {
+    display: none;
+  }
+
+  #nuestros-servicios .carta {
+    background-position: center center;
+    background-size: cover;
+    padding: 20px 10px;
+    margin: 20px;
+    border-radius: 10px;
+  }
+}
+
+/**/
+
+/*VISTA MOBILE*/
+@media only screen and (max-width: 767px) {
+  #nuestros-entrenamientos .container {
+    text-align: center;
+    padding: 30px 4px;
+  }
+
+  /*NUESTROS SERVICIOS*/
+
+  #nuestros-servicios {
+    background-color: transparent;
+    text-align: center;
+    display: inline;
+    width: 30%;
+    max-width: 300px;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  #nuestros-servicios .container {
+    padding: 30px 4px;
+  }
+
+  #nuestros-servicios h2 {
+    margin-top: 0;
+    font-size: 0.5em;
+  }
+
+  #nuestros-servicios p {
+    display: none;
+  }
+
+  #nuestros-servicios .carta {
+    background-position: center center;
+    background-size: cover;
+    padding: 15px 10px;
+    margin: 10px;
+    border-radius: 10px;
+  }
+}
+
+/*INDEX*/
+/*GRID*/
+/*VISTA DESKTOP*/
+@media only screen and (max-width: 1440px) {
+  .contenedor-publicaciones {
+    background-color: transparent;
+    color: white;
+    max-height: 1000px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 2em;
+    padding: 40px;
+    text-align: center;
+  }
+
+  .related-post1 {
+    border: solid 4px;
+    border-color: rgb(250, 234, 9);
+    border-radius: 30px;
+  }
+
+  .related-post2 {
+    border: solid 4px;
+    border-color: rgb(250, 234, 9);
+    border-radius: 30px;
+  }
+
+  .related-post3 {
+    border: solid 4px;
+    border-color: rgb(250, 234, 9);
+    border-radius: 30px;
+  }
+
+  .related-post4 {
+    border: solid 4px;
+    border-color: rgb(250, 234, 9);
+    border-radius: 30px;
+  }
+
+  .related-post5 {
+    border: solid 4px;
+    border-color: rgb(250, 234, 9);
+    border-radius: 30px;
+  }
+
+  .related-post6 {
+    border: solid 4px;
+    border-color: rgb(250, 234, 9);
+    border-radius: 30px;
+  }
+}
+
+/**/
+/*VISTA TABLET*/
+@media only screen and (min-width: 768) and (max-width: 1023px) {
+  .contenedor-publicaciones {
+    background-color: transparent;
+    color: white;
+    max-height: 300px;
+    display: grid;
+    grid-template-columns: repeat(5, 0, 5fr);
+    grid-template-rows: repeat(3, 0, 5fr);
+    gap: 1em;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .related-post1 {
+    border: solid 2px;
+    border-color: rgb(250, 234, 9);
+    border-radius: 15px;
+  }
+
+  .related-post2 {
+    border: solid 2px;
+    border-color: rgb(250, 234, 9);
+    border-radius: 15px;
+  }
+
+  .related-post3 {
+    border: solid 2px;
+    border-color: rgb(250, 234, 9);
+    border-radius: 15px;
+  }
+
+  .related-post4 {
+    border: solid 2px;
+    border-color: rgb(250, 234, 9);
+    border-radius: 15px;
+  }
+
+  .related-post5 {
+    border: solid 2px;
+    border-color: rgb(250, 234, 9);
+    border-radius: 15px;
+  }
+
+  .related-post6 {
+    border: solid 2px;
+    border-color: rgb(250, 234, 9);
+    border-radius: 15px;
+  }
+}
+/**/
+/*VISTA MOBILE*/
+@media only screen and (max-width: 767px) {
+  .contenedor-publicaciones {
+    background-color: transparent;
+    color: white;
+    max-height: 200px;
+    display: grid;
+    grid-template-columns: repeat(3, 0, 5fr);
+    grid-template-rows: repeat(2, 0, 5fr);
+    gap: 0.5em;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .related-post1 {
+    border: solid 1px;
+    border-color: rgb(250, 234, 9);
+    border-radius: 10px;
+  }
+
+  .related-post2 {
+    border: solid 1px;
+    border-color: rgb(250, 234, 9);
+    border-radius: 10px;
+  }
+
+  .related-post3 {
+    border: solid 1px;
+    border-color: rgb(250, 234, 9);
+    border-radius: 10px;
+  }
+
+  .related-post4 {
+    border: solid 1px;
+    border-color: rgb(250, 234, 9);
+    border-radius: 10px;
+  }
+
+  .related-post5 {
+    border: solid 1px;
+    border-color: rgb(250, 234, 9);
+    border-radius: 10px;
+  }
+
+  .related-post6 {
+    border: solid 1px;
+    border-color: rgb(250, 234, 9);
+    border-radius: 10px;
+  }
+}
+/*CARTA*/
+
+.carta:first-child {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(204, 197, 197, 0.5)
+    ),
+    url("../images/kipchoge-meta\ 2.jpeg");
+  background-attachment: fixed;
+}
+
+.carta:nth-child(2) {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(204, 197, 197, 0.5)
+    ),
+    url("../images/trail\ body\ 3.jpeg");
+  background-attachment: fixed;
+}
+
+.carta:nth-child(3) {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("../images/triatlon.jpeg");
+  background-attachment: fixed;
+}
+
+/*COLOR ACENTO*/
+
+.color-acento {
+  background-color: black;
+  border-radius: 10px;
+}
+
+.color-acento2 {
+  background-color: rgb(24, 23, 23);
+  border-radius: 10px;
+}
+
+/*FOOTER*/
+/*VISTA DESKTOP*/
+@media only screen and (max-width: 1440px) {
+  #footer {
+    background-color: rgb(19, 7, 7);
+    color: rgb(238, 238, 238);
+    text-align: center;
+    height: 3.5em;
+    border-top: 2px solid rgba(0, 0, 0, 0.24);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-size: 1em;
+  }
+}
+/**/
+/*VISTA TABLET*/
+@media only screen and (min-width: 768) and (max-width: 1023px) {
+  #footer {
+    background-color: rgb(19, 7, 7);
+    color: rgb(238, 238, 238);
+    text-align: center;
+    height: 3.5em;
+    border-top: 2px solid rgba(0, 0, 0, 0.24);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-size: 0, 8em;
+  }
+}
+
+/**/
+/*VISTA MOBILE*/
+@media only screen and (max-width: 767px) {
+  #footer {
+    background-color: rgb(19, 7, 7);
+    color: rgb(238, 238, 238);
+    text-align: center;
+    height: 3.5em;
+    border-top: 1px solid rgba(0, 0, 0, 0.24);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-size: 0, 8em;
+  }
+}
+/*NAVEGADOR*/
+
+#navbar {
+  background-color: black;
+}
+#navbar ul {
+  list-style: none;
+  margin: 10px;
+}
+
+#navbar ul li {
+  display: inline-block;
+}
+
+#navbar ul li a {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  padding: 40px 100px;
+}
+
+#navbar ul li:hover {
+  background-color: rgb(168, 157, 5);
+}
+
+#button {
+  background: #2e2f30;
+  background-color: rgb(170, 166, 166);
+  padding: 10px;
+}
+
+/* FORMULARIO */
+/*VISTA DESKTOP*/
+@media only screen and (max-width: 1440px) {
+  #formulario {
+    border-radius: 30px;
+    width: 450px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    color: white;
+  }
+}
+
+/**/
+/*VISTA TABLET*/
+@media only screen and (min-width: 768) and (max-width: 1023px) {
+  #formulario {
+    border-radius: 20px;
+    width: 300px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 07px 10px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    color: white;
+  }
+}
+
+/**/
+/*VISTA MOBILE*/
+@media only screen and (max-width: 767px) {
+  #formulario {
+    border-radius: 10px;
+    width: 300px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px 10px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    color: white;
+  }
+}
+/*CHECKBOX*/
+
+#checkbox {
+  font-size: 2.5em;
+}
+
+/* SERVICIOS */
+/*LISTAS*/
+/*VISTA DESKTOP*/
+@media only screen and (max-width: 1440px) {
+  p {
+    background-color: transparent;
+    color: white;
+  }
+
+  .contenedor-servicios {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 2em;
+    margin: 40px;
+    width: auto;
+    padding: 30px;
+    text-align: justify;
+    justify-content: center;
+  }
+
+  .imagen-servicios {
+    border-radius: 40px;
+    border: solid 4px;
+    border-color: rgb(233, 201, 19);
+  }
+
+  #Listas ul li {
+    color: rgb(255, 255, 255);
+    list-style: none;
+    padding: 40px 100px;
+  }
+}
+
+/**/
+/*VISTA TABLET*/
+@media only screen and (min-width: 768) and (max-width: 1023px) {
+  p {
+    background-color: transparent;
+    color: white;
+  }
+
+  .contenedor-servicios {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 1em;
+    margin: 40px;
+    width: auto;
+    padding: 30px;
+    text-align: justify;
+    justify-content: center;
+  }
+
+  .imagen-servicios {
+    border-radius: 20px;
+    border: solid 2px;
+    border-color: rgb(233, 201, 19);
+  }
+
+  #Listas ul li {
+    color: rgb(255, 255, 255);
+    list-style: none;
+    padding: 20px 50px;
+  }
+}
+/**/
+/*VISTA MOBILE*/
+@media only screen and (max-width: 767px) {
+  p {
+    background-color: transparent;
+    color: white;
+  }
+
+  .contenedor-servicios {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    grid-gap: 0, 5em;
+    margin: 10px;
+    width: auto;
+    padding: 10px;
+    text-align: justify;
+    justify-content: center;
+  }
+
+  .imagen-servicios {
+    border-radius: 10px;
+    border: solid 2px;
+    border-color: rgb(233, 201, 19);
+  }
+
+  #Listas ul li {
+    color: rgb(255, 255, 255);
+    list-style: none;
+    padding: 10px 400px;
+  }
+}
+/* SOBRE MI */
+/*VISTA DESKTOP*/
+@media only screen and (max-width: 1440px) {
+  #sobremi {
+    color: white;
+    display: flex;
+    /*FLEX*/
+    text-align: left;
+    height: 900px;
+    justify-content: center;
+    width: 100%;
+  }
+
+  #sobremi h2 {
+    font-size: 1.5em;
+  }
+
+  #sobremi p {
+    font-size: 1.5em;
+    text-align: justify;
+  }
+
+  .sobremi-uno {
+    float: left;
+    width: 50%;
+  }
+}
+/**/
+/*VISTA TABLET*/
+@media only screen and (min-width: 768) and (max-width: 1023px) {
+  #sobremi {
+    color: white;
+    display: flex;
+    /*FLEX*/
+    text-align: left;
+    height: 450px;
+    justify-content: center;
+    width: 100%;
+  }
+
+  #sobremi h2 {
+    font-size: 1em;
+  }
+
+  #sobremi p {
+    font-size: 1em;
+    text-align: justify;
+  }
+
+  .sobremi-uno {
+    float: left;
+    width: 50%;
+  }
+}
+/**/
+/*VISTA MOBILE*/
+@media only screen and (max-width: 767px) {
+  #sobremi {
+    color: white;
+    display: flex;
+    /*FLEX*/
+    text-align: left;
+    height: 250px;
+    justify-content: center;
+    width: 100%;
+  }
+
+  #sobremi h2 {
+    font-size: 1em;
+  }
+
+  #sobremi p {
+    font-size: 1em;
+    text-align: justify;
+  }
+
+  .sobremi-uno {
+    float: left;
+    width: 50%;
+  }
+}
+
+/*NUESTRO EQUIPO*/
+/* GRID */
+/*VISTA DESKTOP*/
+@media only screen and (max-width: 1440px) {
+  .equipo h2 {
+    font-size: 1.5em;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+
+  .equipo {
+    background-color: transparent;
+    padding: 30px;
+    margin-right: 40px;
+  }
+
+  .contenedor {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-auto-rows: auto;
+    padding: 10px;
+    grid-gap: 20px;
+    text-align: center;
+  }
+
+  .imagen {
+    border-radius: 40px;
+    display: grid;
+    width: 100%;
+    object-fit: cover;
+    border: solid 4px;
+    border-color: yellow;
+  }
+
+  .equipo p {
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+  }
+}
+/**/
+/*VISTA TABLET*/
+@media only screen and (min-width: 768) and (max-width: 1023px) {
+  .equipo h2 {
+    font-size: 1em;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+
+  .equipo {
+    background-color: transparent;
+    padding: 15px;
+    margin-right: 20px;
+  }
+
+  .contenedor {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-auto-rows: auto;
+    padding: 10px;
+    grid-gap: 20px;
+    text-align: center;
+  }
+
+  .imagen {
+    border-radius: 20px;
+    display: grid;
+    width: 70%;
+    object-fit: cover;
+    border: solid 2px;
+    border-color: yellow;
+  }
+
+  .equipo p {
+    font-size: 1em;
+    color: white;
+    text-align: center;
+  }
+}
+
+/**/
+/*VISTA MOBILE*/
+@media only screen and (max-width: 767px) {
+  .equipo h2 {
+    font-size: 0.5em;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+
+  .equipo {
+    background-color: transparent;
+    padding: 10px;
+    margin-right: 10px;
+  }
+
+  .contenedor {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 0, 5fr));
+    grid-template-rows: repeat(5, 1fr);
+    padding: 10px;
+    grid-gap: 5px;
+    text-align: center;
+  }
+
+  .imagen {
+    border-radius: 10px;
+    display: grid;
+    width: 60%;
+    object-fit: cover;
+    border: solid 1px;
+    border-color: yellow;
+  }
+
+  .equipo p {
+    font-size: 1em;
+    color: white;
+    text-align: justify;
+  }
+}
+
+/*PRODUCTOS*/
+/*VISTA DESKTOP*/
+@media only screen and (max-width: 1440px) {
+  .contenedor-productos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1em;
+    text-align: center;
+    margin: 20px;
+  }
+
+  .imagen-productos {
+    border-radius: 40px;
+    border: solid 4px;
+    border-color: yellow;
+  }
+
+  .formulario-ropa {
+    border-radius: 10px;
+    border: solid 4px;
+    border-color: rgb(8, 8, 1);
+    width: 450px;
+    margin: auto;
+    background-color: rgba(248, 227, 107, 0.5);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+  }
+
+  .formulario-campo {
+    background-color: rgb(205, 207, 209);
+    border: solid 2px;
+    border-color: rgb(71, 71, 71);
+    border-radius: 10px;
+    font-size: 0, 5em;
+  }
+
+  .formulario-submit {
+    background-color: rgb(244, 248, 4);
+    border-radius: 10px;
+    border: solid 3px;
+    font-size: 0, 5em;
+  }
+}
+
+/**/
+/*VISTA TABLET*/
+@media only screen and (min-width: 768) and (max-width: 1023px) {
+  .contenedor-productos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 0, 5em;
+    text-align: center;
+    margin: 20px;
+  }
+
+  .imagen-productos {
+    border-radius: 40px;
+    border: solid 4px;
+    border-color: yellow;
+  }
+
+  .formulario-ropa {
+    border-radius: 10px;
+    border: solid 4px;
+    border-color: rgb(8, 8, 1);
+    width: 250px;
+    margin: auto;
+    background-color: rgba(248, 227, 107, 0.5);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+  }
+
+  .formulario-campo {
+    background-color: rgb(205, 207, 209);
+    border: solid 2px;
+    border-color: rgb(71, 71, 71);
+    border-radius: 10px;
+    font-size: 0, 5em;
+  }
+
+  .formulario-submit {
+    background-color: rgb(244, 248, 4);
+    border-radius: 10px;
+    border: solid 3px;
+    font-size: 0, 5em;
+  }
+}
+
+/**/
+/*VISTA MOBILE*/
+@media only screen and (max-width: 767px) {
+  .contenedor-productos {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 0, 2em;
+    text-align: center;
+    margin: 10px;
+  }
+
+  .imagen-productos {
+    border-radius: 40px;
+    border: solid 4px;
+    border-color: yellow;
+  }
+
+  .formulario-ropa {
+    border-radius: 10px;
+    border: solid 4px;
+    border-color: rgb(8, 8, 1);
+    width: 250px;
+    margin: auto;
+    background-color: rgba(248, 227, 107, 0.5);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+  }
+
+  .formulario-campo {
+    background-color: rgb(205, 207, 209);
+    border: solid 2px;
+    border-color: rgb(71, 71, 71);
+    border-radius: 10px;
+    font-size: 0, 2em;
+  }
+
+  .formulario-submit {
+    background-color: rgb(244, 248, 4);
+    border-radius: 10px;
+    border: solid 3px;
+    font-size: 0, 2em;
+  }
+}
+
+/*CONTACTO*/
+/*VISTA DESKTOP*/
+@media only screen and (max-width: 1440px) {
+  .contenedor-contacto {
+    background-color: transparent;
+    margin-left: 50px;
+  }
+
+  .buttons {
+    min-width: 700px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    padding: 50px;
+    margin: 50px;
+    justify-content: center;
+  }
+
+  .buttons a {
+    text-decoration: none;
+    font-size: 28px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: #ffea00;
+    color: #131212;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    transition: all 0.4s ease-in-out;
+  }
+
+  .buttons a:hover {
+    transform: scale(1.2);
+  }
+}
+
+/**/
+/*VISTA TABLET*/
+@media only screen and (min-width: 768) and (max-width: 1023px) {
+  .contenedor-contacto {
+    background-color: transparent;
+    margin-left: 50px;
+  }
+
+  .buttons {
+    min-width: 350px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    padding: 50px;
+    margin: 50px;
+    justify-content: center;
+  }
+
+  .buttons a {
+    text-decoration: none;
+    font-size: 28px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: #ffea00;
+    color: #131212;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    transition: all 0.4s ease-in-out;
+  }
+
+  .buttons a:hover {
+    transform: scale(1.2);
+  }
+}
+
+/**/
+/*VISTA MOBILE*/
+@media only screen and (max-width: 767px) {
+  .contenedor-contacto {
+    background-color: transparent;
+    margin-left: 50px;
+  }
+
+  .buttons {
+    min-width: 50px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    padding: 25px;
+    margin: 25px;
+    justify-content: center;
+  }
+
+  .buttons a {
+    text-decoration: none;
+    font-size: 18px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background: #ffea00;
+    color: #131212;
+    border-radius: 30%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    transition: all 0.4s ease-in-out;
+  }
+
+  .buttons a:hover {
+    transform: scale(1.2);
+  }
+}
