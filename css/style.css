@@ -403,6 +403,7 @@ button:hover {
   }
 }
 /*CARTA*/
+/*LINEAS GRADIENTES*/
 
 .carta:first-child {
   background-image: linear-gradient(
@@ -892,12 +893,14 @@ button:hover {
     gap: 1em;
     text-align: center;
     margin: 20px;
+    
   }
 
   .imagen-productos {
     border-radius: 40px;
     border: solid 4px;
     border-color: yellow;
+    
   }
 
   .formulario-ropa {
@@ -1019,6 +1022,8 @@ button:hover {
     font-size: 0, 2em;
   }
 }
+
+/*TRANSFORMACIONES-ICONOS*/
 
 /*CONTACTO*/
 /*VISTA DESKTOP*/
